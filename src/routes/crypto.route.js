@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { getCryptoStats } from "../controllers/cryptoStats.controller.js";
+import { getCryptoStats } from "../controllers/crypto.controller.js";
 
 const router = Router();
 

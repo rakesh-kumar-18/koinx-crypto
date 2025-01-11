@@ -1,6 +1,6 @@
 import express from "express";
-import fetchAndStoreCryptoData from "./controllers/crypto.controller.js";
-import cryptoRoutes from "./routes/cryptoStats.route.js";
+import { fetchAndStoreCryptoData } from "./controllers/crypto.controller.js";
+import cryptoRoutes from "./routes/crypto.route.js";
 
 const app = express();
 
